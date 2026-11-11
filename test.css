@@ -1,7 +1,8 @@
 body {
   background-color: black;
 }
-h1 {
+
+.Header {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
   color: orange;
@@ -18,8 +19,7 @@ p {
 
 .btn {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
   height: 40px;
   width: 100px;
   background-color: orange;
