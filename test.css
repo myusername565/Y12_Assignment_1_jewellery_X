@@ -18,10 +18,12 @@ p {
 }
 
 .btn {
-  display: flex;
+  display: block;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
   margin: auto;
   height: 40px;
-  width: 100px;
+  width: 120px;
   background-color: orange;
   color: black;
   border: green solid 2px;
