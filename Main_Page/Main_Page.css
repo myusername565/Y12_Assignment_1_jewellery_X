@@ -13,7 +13,7 @@ h1 {
   gap: 130px;
   left: 50%;
   transform: translateX(-47%);
-  bottom: 72%;
+  bottom: 70%;
 }
 .Title {
   color: white;
@@ -23,13 +23,11 @@ h1 {
 
 .button-container {
   display: flex;
-  position: absolute;
-  bottom: 250px;
-  left: 50%;
-  transform: translateX(-50%);
-  gap: 230px;
-  align-items: center;
+  position: relative;
   justify-content: center;
+  align-items: flex-end;
+  height: 70vh;
+  gap: 230px;
 }
 .btn {
   display: flex;
